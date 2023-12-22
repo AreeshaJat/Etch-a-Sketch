@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0; /* gets rid of the white border around flex-container */
     background-color: #FEBEB0;
 }
@@ -13,9 +15,27 @@ body {
     padding: 20px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#black, #grey, #rainbow, #clear, #eraser{
+    height: 40px;
+    width: 70px;
+    margin: 0 4px;
+}
+
+.firstQuestion {
+    height: 60px;
+    width: 380px;
+    margin-bottom: 8px;
+}
+
 .column {
     display: inline-block;
-    border: 1px solid black;
     box-sizing: border-box; 
 }
 
