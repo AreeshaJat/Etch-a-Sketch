@@ -1,5 +1,6 @@
 //target location to generate the grid
 let container = document.querySelector('.container');
+container.style.cssText = "background-color: white;"
 function createGrid(gridAmount) {
 
     //generates rows on the container
@@ -14,7 +15,7 @@ function createGrid(gridAmount) {
             const column = document.createElement('div');
             //styling 
             column.classList.add('column');
-            column.style.width = `${500 / gridAmount}px`;
+            column.style.width = `${960 / gridAmount}px`;
             column.style.height = `${500 / gridAmount}px`;
             //adding the columns within the row
             row.appendChild(column);
