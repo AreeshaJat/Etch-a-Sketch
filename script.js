@@ -40,7 +40,9 @@ clearButton.addEventListener("click", () => {
 
 
 function createGrid(gridAmount) {
-
+    // Removing all children from the container
+    container.innerHTML = '';
+    
     //generates rows on the container
     for (let i = 0; i < gridAmount; i++) {
         //creates rows and then adds it to the container
@@ -57,6 +59,7 @@ function createGrid(gridAmount) {
             column.style.height = `${500 / gridAmount}px`;
             //adding the columns within the row
             row.appendChild(column);
+            //adding event listeners to each column
             column.addEventListener("mouseover", function(){
                 if (currentColor === 'black') {
                     column.style.backgroundColor = 'black';
