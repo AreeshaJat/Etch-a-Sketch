@@ -10,7 +10,7 @@ const eraserButton = document.getElementById('eraser');
 const clearButton = document.getElementById('clear');
 const promptQuestion = document.getElementById('promptQuestion');
 
-let currentColor = 'white';
+let currentColor = 'black';
 let lastInput;
 
 blackButton.addEventListener("click", function() {
@@ -93,4 +93,6 @@ promptQuestion.addEventListener("click", function() {
     //Calling the function if input is valid
     createGrid(input);
 });
+
+createGrid(25);
 

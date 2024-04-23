@@ -5,7 +5,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0; /* gets rid of the white border around flex-container */
-    background-color: #FEBEB0;
+    background-image: linear-gradient(to right, rgba(213, 109, 137, 0.5) , rgba(90, 34, 139, 0.5));
+    /*background-image: linear-gradient(to right, rgba(102, 51, 153, 0.5) , rgba(22, 160, 133, 0.5));*/
+    /*background-image: linear-gradient(to right, rgba(196, 77, 86, 0.5) , rgba(27, 163, 156, 0.5));*/
+    /*background-image: linear-gradient(to right, rgba(213, 184, 255, 0.5) , rgba(210, 238, 130, 0.5));*/
+    /*background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) , rgba(255, 255, 0, 0.5));*/
+   /*background-color: #F5F5DC;*/
 }
 
 .title {
@@ -22,16 +27,47 @@ body {
     padding-bottom: 20px;
 }
 
-#black, #grey, #rainbow, #clear, #eraser{
-    height: 40px;
-    width: 70px;
+#black, #grey, #rainbow, #clear, #eraser, #promptQuestion{
+    height: 44px;
+    width: 44px;
     margin: 0 4px;
 }
 
-.firstQuestion {
-    height: 60px;
-    width: 380px;
-    margin-bottom: 8px;
+#black {
+    background-color: black;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#rainbow {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#clear {
+    background-image: url(./images/trashCan.png);
+    background-size: contain; /* to make the entire image fit within the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#eraser {
+    background-image: url(./images/eraser.png);
+    background-size: contain; /* to make the entire image fit within the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+#promptQuestion {
+    background-color: white;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
 }
 
 .column {
