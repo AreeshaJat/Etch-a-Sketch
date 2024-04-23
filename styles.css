@@ -5,12 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0; /* gets rid of the white border around flex-container */
-    background-image: linear-gradient(to right, rgba(213, 109, 137, 0.5) , rgba(90, 34, 139, 0.5));
-    /*background-image: linear-gradient(to right, rgba(102, 51, 153, 0.5) , rgba(22, 160, 133, 0.5));*/
-    /*background-image: linear-gradient(to right, rgba(196, 77, 86, 0.5) , rgba(27, 163, 156, 0.5));*/
-    /*background-image: linear-gradient(to right, rgba(213, 184, 255, 0.5) , rgba(210, 238, 130, 0.5));*/
-    /*background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) , rgba(255, 255, 0, 0.5));*/
-   /*background-color: #F5F5DC;*/
+    background-color: #AEC6CF;
 }
 
 .title {
