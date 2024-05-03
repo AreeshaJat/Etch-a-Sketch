@@ -23,3 +23,8 @@ The project is based on the development of a responsive and interactive web page
 
 ## Viewing the Webpage
 To view the completed webpage, follow this link: [Live Demo](https://areeshajat.github.io/Etch-a-Sketch/)
+
+https://github.com/AreeshaJat/Etch-a-Sketch/assets/106934155/550e7e7b-00e0-4ef1-959d-905a962a0c0b
+
+
+
